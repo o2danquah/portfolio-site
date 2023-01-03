@@ -338,6 +338,7 @@ h6 {
 .header .logo i {
   font-size: 32px;
   margin-right: 8px;
+  color: #FED049;
   line-height: 0;
 }
 
@@ -1075,7 +1076,7 @@ h6 {
 
 .contact .info-item i {
   font-size: 20px;
-  color: var(--color-primary);
+  color: #FED049;
   float: left;
   width: 44px;
   height: 44px;
@@ -1104,7 +1105,7 @@ h6 {
 }
 
 .contact .info-item:hover i {
-  background: var(--color-primary);
+  background: #FED049;
   color: #fff;
 }
 
@@ -1164,9 +1165,9 @@ h6 {
   border-radius: 4px;
   box-shadow: none;
   font-size: 14px;
-  background-color: var(--color-secondary);
+  background-color: #fff;
   border: 1px solid #2e3133;
-  color: #fff;
+  color: black;
 }
 
 .contact .php-email-form input {
@@ -1178,7 +1179,7 @@ h6 {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: var(--color-primary);
+  background: #FED049;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1187,7 +1188,8 @@ h6 {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(39, 167, 118, 0.8);
+  background:#FED049 ;
+  opacity: 0.6;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1272,7 +1274,7 @@ h6 {
 }
 
 .hero .btn-get-started:hover {
-  background: #2cbc85;
+  background: #FED049;
 }
 
 @media (max-width: 768px) {
