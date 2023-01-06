@@ -974,11 +974,14 @@ h6 {
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
-
+#margin-top{
+  margin-top: 60px;
+}
 
 .services .service-item {
-  padding: 10px 30px;
-  margin-bottom: 40px;
+  padding: 20px 40px;
+
+  margin-bottom: 20px;
   transition: all ease-in-out 0.4s;
   background: #FED049;
   height: 100%;
@@ -1013,8 +1016,8 @@ h6 {
 .services .service-item h4 {
   font-weight: 600;
   transition: 0.3s;
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-size: 40px;
+  margin-bottom: 40px;
   color: #1d1f20;
 }
 
@@ -1028,14 +1031,14 @@ h6 {
   margin: 15px 0 0 0;
 }
 
- .services .service-item:hover:before {
+ /* .services .service-item:hover:before {
   background: #FED049;
   right: 0;
   top: 0;
   width: 100%;
   height: 100%;
   border-radius: 0px;
-} 
+}  */
 
 /* .services .service-item:hover h4 a,
 .services .service-item:hover p {
