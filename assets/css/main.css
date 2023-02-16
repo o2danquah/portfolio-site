@@ -45,6 +45,8 @@ a:hover {
   text-decoration: none;
 }
 
+
+
 h1,
 h2,
 h3,
@@ -980,7 +982,6 @@ h6 {
 
 .services .service-item {
   padding: 20px 40px;
-
   margin-bottom: 20px;
   transition: all ease-in-out 0.4s;
   background: #FED049;
@@ -1014,12 +1015,26 @@ h6 {
 }
 
 .services .service-item h4 {
-  font-weight: 600;
+  font-weight: 500;
   transition: 0.3s;
-  font-size: 40px;
-  margin-bottom: 40px;
+  font-size: 32px;
+  margin-bottom: 20px;
   color: #1d1f20;
 }
+
+.services .service-item .portfolio-info h3 {
+  margin-top: 20px;
+  color: #fff;
+}
+
+.services .service-item .portfolio-info span {
+  margin-top: 20px;
+  color: #27a776
+}
+
+
+
+
 
 .services .service-item h4 a {
   color: #fff;
