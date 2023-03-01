@@ -20,6 +20,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+#border-image{
+  border: 5px solid #FED049;
+}
 
 #carouselFade{
 margin: 20px 80px;
@@ -636,6 +639,11 @@ h6 {
   margin-right: 10px;
 }
 
+#green-name{
+  color: #27a776;
+  font-size: larger;
+}
+
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
@@ -742,6 +750,7 @@ h6 {
 --------------------------------------------------------------*/
 .gallery {
   margin-top: 40px;
+  
 }
 
 .gallery .gallery-item {
@@ -752,6 +761,7 @@ h6 {
 
 .gallery .gallery-item img {
   transition: 0.3s;
+  
 }
 
 .gallery .gallery-links {
@@ -824,8 +834,8 @@ h6 {
 
 .gallery-single .swiper-button-prev,
 .gallery-single .swiper-button-next {
-  width: 48px;
-  height: 48px;
+  width: 60px;
+  height: 60px;
 }
 
 .gallery-single .swiper-button-prev:after,
@@ -853,6 +863,14 @@ h6 {
   .gallery-single .swiper-button-next {
     display: none;
   }
+
+}
+
+@media (max-width: 575px) {
+  .responsive{
+    background-color: #27a776;
+  }
+  
 }
 
 .gallery-single .portfolio-info h3 {
@@ -1139,7 +1157,7 @@ h6 {
 }
 
 .contact .php-email-form .form-group {
-  padding-bottom: 8px;
+  padding-bottom: 1px;
 }
 
 .contact .php-email-form .error-message {
