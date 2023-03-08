@@ -21,7 +21,7 @@
 # General
 --------------------------------------------------------------*/
 #border-image{
-  border: 5px solid #FED049;
+  border: 2px solid #FED049;
 }
 
 #carouselFade{
@@ -868,7 +868,7 @@ h6 {
 
 @media (max-width: 575px) {
   .responsive{
-    background-color: #27a776;
+    margin: 0px;
   }
   
 }
@@ -1152,88 +1152,6 @@ h6 {
   color: #fff;
 }
 
-.contact .php-email-form {
-  width: 100%;
-}
-
-.contact .php-email-form .form-group {
-  padding-bottom: 1px;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #df1529;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .error-message br+br {
-  margin-top: 25px;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: var(--color-primary);
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: var(--color-secondary);
-  text-align: center;
-  padding: 15px;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid var(--color-primary);
-  border-top-color: var(--color-secondary);
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form input,
-.contact .php-email-form textarea {
-  border-radius: 4px;
-  box-shadow: none;
-  font-size: 14px;
-  background-color: #fff;
-  border: 1px solid #2e3133;
-  color: black;
-}
-
-.contact .php-email-form input {
-  height: 44px;
-}
-
-.contact .php-email-form textarea {
-  padding: 10px 12px;
-}
-
-.contact .php-email-form button[type=submit] {
-  background: #FED049;
-  border: 0;
-  padding: 10px 35px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.contact .php-email-form button[type=submit]:hover {
-  background:#FED049 ;
-  opacity: 0.6;
-}
 
 @-webkit-keyframes animate-loading {
   0% {
@@ -1267,6 +1185,13 @@ h6 {
   background-size: cover;
   position: relative;
   padding: 140px 0 60px 0;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    margin-bottom: 2px;
+    padding: 140px 0 10px 0;
+  }
 }
 
 .hero h2 {
