@@ -22,10 +22,11 @@
 --------------------------------------------------------------*/
 #border-image{
   border: 2px solid #FED049;
+  margin-top: 25px;
 }
 
 #carouselFade{
-margin: 20px 10px;
+margin: 20px 40px;
 }
 
 /*-----------------------*/
@@ -1117,12 +1118,13 @@ h6 {
 # Contact Section
 --------------------------------------------------------------*/
 .contact .service-item {
-  padding: 20px 40px;
+  padding: 20px 20px;
   margin-bottom: 20px;
   display: flex;
   transition: all ease-in-out 0.4s;
   background: #FED049;
   height: 100%;
+  width: 100%;
   overflow: hidden;
   z-index: 1;
 }
@@ -1131,7 +1133,7 @@ h6 {
   content: "";
   position: absolute;
   background: #1d1f20;
-  top: -200px;
+  top: -12px;
   transition: all 0.3s;
   z-index: -1;
 }
@@ -1148,7 +1150,8 @@ h6 {
   width: 56px;
   height: 56px;
   border-radius: 50%;
-  margin-bottom: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .contact .service-item h4 {
@@ -1157,9 +1160,57 @@ h6 {
   font-size: 32px;
   margin-bottom: 20px;
   margin-left: 15px;
-  margin-top: 5px;
+  margin-top: 15px;
   color: #1d1f20;
 }
+
+@media (max-width: 575px) {
+  .contact .service-item {
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    display: flex;
+    transition: all ease-in-out 0.4s;
+    background: #FED049;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+  }
+   
+  
+}
+
+@media (max-width: 1200px) {
+ 
+.contact .service-item i {
+  background: black;
+  color: #fff;
+  font-size: 24px;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 60px;
+}
+
+.contact .service-item h4 {
+  font-weight: 500;
+  transition: 0.3s;
+  font-size: 32px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  margin-top: 15px;
+  color: #1d1f20;
+}
+   
+  
+}
+
 
 
 
@@ -1318,7 +1369,7 @@ h6 {
   background-color: #FED049;
   padding: 30px 0;
   font-size: 14px;
-  margin-top: 130px;
+  margin-top: 265px;
 }
 .contact-footer .copyright {
   text-align: center;
